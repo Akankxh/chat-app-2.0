@@ -10,7 +10,7 @@ import { useAuthStore } from './store/useAuthStore'
 import { useThemeStore } from './store/useThemeStore';
 import { use } from 'react'
 import { useEffect } from 'react'
-import Loader from 'lucide-react/dist/esm/icons/loader'
+import { Loader } from 'lucide-react'
 import { Toaster } from 'react-hot-toast';
 
 const App = () => {
